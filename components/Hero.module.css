@@ -1,0 +1,7 @@
+.avatar {
+    transition: transform 150ms ease-in-out;
+}
+
+.avatar:hover {
+    transform: scale(1.05)
+}

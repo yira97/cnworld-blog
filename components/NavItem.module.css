@@ -1,0 +1,12 @@
+.parent:hover .avatar {
+    animation: bounce 0.4s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+      transform: translateY(0rem);
+    }
+    to {
+      transform: translateY(-0.6rem);
+    }
+  }
